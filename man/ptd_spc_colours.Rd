@@ -5,16 +5,16 @@
 \title{SPC Colours}
 \usage{
 ptd_spc_colours(
-  common_cause = "#7B7D7D",
-  special_cause_improvement = "#289de0",
-  special_cause_neutral = "#361475",
-  special_cause_concern = "#fab428",
-  value_line = "#7B7D7D",
+  common_cause = "#a6a6a6",
+  special_cause_improvement = "#00b0f0",
+  special_cause_neutral = "#490092",
+  special_cause_concern = "#e46c0a",
+  value_line = "#a6a6a6",
   mean_line = "#000000",
-  lpl = "#7B7D7D",
-  upl = "#7B7D7D",
+  lpl = "#a6a6a6",
+  upl = "#a6a6a6",
   target = "#de1b1b",
-  trajectory = "#361475"
+  trajectory = "#490092"
 )
 }
 \arguments{
@@ -31,7 +31,7 @@ ptd_spc_colours(
 \item{trajectory}{the colour of the trajectory line}
 }
 \value{
-a list of colours
+A list of colours
 }
 \description{
 Produces a list of colours that controls the geoms in the plot

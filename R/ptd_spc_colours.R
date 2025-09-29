@@ -9,19 +9,20 @@
 #' @param target the colour of the target line
 #' @param trajectory the colour of the trajectory line
 #'
-#' @return a list of colours
+#' @returns A list of colours
 #'
 #' @export
-ptd_spc_colours <- function(common_cause = "#7B7D7D",
-                            special_cause_improvement = "#289de0", # blue
-                            special_cause_neutral = "#361475", # purple
-                            special_cause_concern = "#fab428", # orange
-                            value_line = "#7B7D7D",
-                            mean_line = "#000000",
-                            lpl = "#7B7D7D",
-                            upl = "#7B7D7D",
-                            target = "#de1b1b",
-                            trajectory = "#361475") {
+ptd_spc_colours <- function(
+    common_cause = "#a6a6a6",
+    special_cause_improvement = "#00b0f0", # blue
+    special_cause_neutral = "#490092", # purple
+    special_cause_concern = "#e46c0a", # orange
+    value_line = "#a6a6a6",
+    mean_line = "#000000",
+    lpl = "#a6a6a6",
+    upl = "#a6a6a6",
+    target = "#de1b1b",
+    trajectory = "#490092") {
   structure(
     list(
       common_cause = common_cause,
